@@ -46,4 +46,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### Caution!
 
-This is a toy project and is not complete. It was just done to learn about internals of PostgreSQL and databases in general along with various indexing strategies. So, feel free to utilise this work further at your own risk.
+- This is a toy project and is not complete. It was just done to learn about internals of PostgreSQL and databases in general along with various indexing strategies. So, feel free to utilise this work further at your own risk.
+- Also note that this code was last tested working on PostgreSQL 10.5
