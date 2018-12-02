@@ -456,7 +456,7 @@ DB_Project_GetDetails(QueryDesc *queryDesc)
 {
 	if (!opened2)
 	{
-		fptr = fopen("/home/praneeth/Desktop/DB_Project/log/db_project_log.csv", "a");
+		fptr = fopen("/home/[username]/Desktop/log/db_project_log.csv", "a");
 		opened2 = true;
 	}
 	if (queryDesc->operation == CMD_SELECT) {

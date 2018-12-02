@@ -10102,7 +10102,7 @@ DB_Project_GetFingerprint(List *parsetree_list, const char *query_string)
 {	
 	if (!opened)
 	{
-		fptr = fopen("/home/praneeth/Desktop/DB_Project/log/db_project_log.csv", "a");
+		fptr = fopen("/home/[username]/Desktop/log/db_project_log.csv", "a");
 		opened = true;
 	}
 	if (strstr(query_string, "select") != NULL) {

@@ -9,9 +9,10 @@ You may want to check out the [report.pdf](/docs/report.pdf) file for more detai
 Follow the instructions below to get our project running on your local machine.
 
 1. Get the source code for PostgreSQL and clone this repository.
-2. Replace `postgres.c` at (`/src/backend/tcop/`) and `execMain.c` at (`/src/backend/executor/`) in PostgreSQL source and install it.
-3. Now, run the `main.py` file and start using your database.
-4. You can also use the test python scripts present in the `test/` directory for an automated load of queries. Make sure that you change the connection parameters in file appropriately at line 12 and also load the sample data `schema.sql` and `relations.sql` present there.
+2. Change the path of our temporary log file at line 459 of `execMain.c` and line 10105 of `postgres.c` to where you want the temporary logs.
+3. Replace `postgres.c` at (`/src/backend/tcop/`) and `execMain.c` at (`/src/backend/executor/`) in PostgreSQL source and install it.
+4. Now, run the `main.py` file and start using your database.
+5. You can also use the test python scripts present in the `test/` directory for an automated load of queries. Make sure that you change the connection parameters in file appropriately at line 12 and also load the sample data `schema.sql` and `relations.sql` present there.
 
 ### Prerequisites
 
