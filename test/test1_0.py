@@ -9,7 +9,7 @@ import random
 import time
 
 # Open Connection to database
-conn = psycopg2.connect(database = "test", user = "praneeth", password = "", host = "127.0.0.1", port = "6001")
+conn = psycopg2.connect(database = "test", user = "postgres", password = "", host = "localhost", port = "5432")
 
 cur = conn.cursor()
 

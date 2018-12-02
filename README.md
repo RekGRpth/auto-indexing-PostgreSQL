@@ -11,6 +11,7 @@ Follow the instructions below to get our project running on your local machine.
 1. Get the source code for PostgreSQL and clone this repository.
 2. Replace `postgres.c` at (`/src/backend/tcop/`) and `execMain.c` at (`/src/backend/executor/`) in PostgreSQL source and install it.
 3. Now, run the `main.py` file and start using your database.
+4. You can also use the test python scripts present in the `test/` directory for an automated load of queries. Make sure that you change the connection parameters in file appropriately at line 12 and also load the sample data `schema.sql` and `relations.sql` present there.
 
 ### Prerequisites
 
@@ -38,7 +39,7 @@ Follow the instructions below to get our project running on your local machine.
 
 - [**Julien Rouhaud**](https://github.com/rjuju) for the **HypoPG** extension.
 - [**Lukas Fittl**](https://github.com/lfittl) for the **libpg_query** code.
-- [**Prof. S. Sudarshan**](https://www.cse.iitb.ac.in/~sudarsha/) for his important guidance and ideas throughout our work on this project.
+- [**Prof. S. Sudarshan**](https://www.cse.iitb.ac.in/~sudarsha/) for his important guidance and ideas throughout our work on this project and also for the sample data.
 
 ## License
 
